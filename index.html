@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trung Tâm Bich Thuy</title>
+    <link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Trung Tâm Bích Thủy</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+					<li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Khóa Học</a></li>
+					<li><a href="#">Đội ngũ</a></li>
+					<li><a href="#">Đặt lịch hẹn</a></li>
+					<li><a href="#">Tin tức & Sự kiện</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <img src="images/banner.jpg" alt="Banner">
+     
+    </section>
+
+    <section class="features">
+  <h2>Tại sao chọn chúng tôi?</h2>
+  <div class="slideshow">
+    <img src="images/why1.jpg" class="slide active" alt="Slide 1">
+    <img src="images/why2.jpg" class="slide" alt="Slide 2">
+    <img src="images/why3.jpg" class="slide" alt="Slide 3">
+  </div>
+</section>
+
+    <section class="courses">
+        <h2>Các Khóa Học</h2>
+        <div class="course-list">
+            <div class="course">
+                <h3>Can thiệp tiền tiểu học</h3>
+                <p>Khóa học cung cấp kiến thức tiền tiểu học, chuẩn bị hành trang cho các bé vào lớp 1.</p>
+            </div>
+            <div class="course">
+                <h3>Khóa học văn hóa tiểu học</h3>
+                <p>Khóa học giúp các bé củng cố kiến thức văn hóa.</p>
+            </div>
+            <div class="course">
+                <h3>Khóa Kỹ Năng Mềm</h3>
+                <p>Khóa học giúp bạn phát triển các kỹ năng giao tiếp, làm việc nhóm.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Liên Hệ</h2>
+        <form>
+            <input type="text" placeholder="Họ và tên" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Nội dung" required></textarea>
+            <button type="submit">Gửi</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Trung Tâm Bích Thủy. Tất cả quyền được bảo vệ.</p>
+    </footer>
+	<script>
+  let slides = document.querySelectorAll(".slide");
+  let index = 0;
+
+  setInterval(() => {
+    slides[index].classList.remove("active");
+    index = (index + 1) % slides.length;
+    slides[index].classList.add("active");
+  }, 5000);
+</script>
+
+</body>
+</html>
+<header>
+  <div class="container">
+    <div class="banner">
+      <img src="images/banner.jpg" alt="Banner">
+    </div>
+    <div class="header-content">
+      <div class="logo">Trung Tâm Bích Thủy</div>
+      <nav>
+        <ul>
+          <li><a href="#">Trang Chủ</a></li>
+          <li><a href="#">Khóa Học</a></li>
+          <li><a href="#">Liên Hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Chủ - Trung Tâm Bích Thủy</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Trung Tâm Bích Thủy</div>
+      <nav>
+        <ul>
+          <li><a href="#">Trang Chủ</a></li>
+		  <li><a href="#">Giới thiệu</a></li>
+          <li><a href="#">Khóa Học</a></li>
+		  <li><a href="#">Đội ngũ</a></li>
+		  <li><a href="#">Đặt lịch hẹn</a></li>
+		  <li><a href="#">Tin tức & Sự kiện</a></li>
+          <li><a href="#">Liên Hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <h2>Chào mừng đến với Trung Tâm Bích Thủy</h2>
+    <p>Thông tin chung về trung tâm sẽ được hiển thị ở đây.</p>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giới thiệu - Trung Tâm Bích Thủy</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Trung Tâm Bích Thủy</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="khoa-hoc.html">Khóa học</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <h2>Giới thiệu về Trung Tâm Bích Thủy</h2>
+    <p>Trung tâm chúng tôi chuyên cung cấp các khóa học tiếng Anh với phương pháp học hiện đại...</p>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khóa Học - Trung Tâm Bích Thủy</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Trung Tâm Bích Thủy</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="khoa-hoc.html">Khóa học</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <h2>Các khóa học tại Trung Tâm</h2>
+    <ul>
+      <li>Khóa học Tiếng Anh giao tiếp</li>
+      <li>Khóa học Tiếng Anh trẻ em</li>
+      <li>Khóa học Tiếng Anh luyện thi TOEIC</li>
+    </ul>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên Hệ - Trung Tâm Bích Thủy</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Trung Tâm Bích Thủy</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="khoa-hoc.html">Khóa học</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <h2>Liên hệ với chúng tôi</h2>
+    <p>Điện thoại: 123-456-789</p>
+    <p>Email: contact@trungtam.com</p>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Chủ - Trung Tâm Anh Dương</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Trung Tâm Anh Dương</div>
+      <nav>
+        <ul>
+          <li><a href="#" onclick="showPage('home')">Trang chủ</a></li>
+          <li><a href="#" onclick="showPage('gioi-thieu')">Giới thiệu</a></li>
+          <li><a href="#" onclick="showPage('khoa-hoc')">Khóa học</a></li>
+          <li><a href="#" onclick="showPage('lien-he')">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="page-content">
+    <h2>Chào mừng đến với Trung Tâm Anh Dương</h2>
+    <p>Thông tin chung về trung tâm sẽ được hiển thị ở đây.</p>
+  </section>
+
+  <section id="gioi-thieu" class="page-content" style="display:none;">
+    <h2>Giới thiệu về Trung Tâm Anh Dương</h2>
+    <p>Trung tâm chúng tôi chuyên cung cấp các khóa học tiếng Anh với phương pháp học hiện đại...</p>
+  </section>
+
+  <section id="khoa-hoc" class="page-content" style="display:none;">
+    <h2>Các khóa học tại Trung Tâm</h2>
+    <ul>
+      <li>Khóa học Tiếng Anh giao tiếp</li>
+      <li>Khóa học Tiếng Anh trẻ em</li>
+      <li>Khóa học Tiếng Anh luyện thi TOEIC</li>
+    </ul>
+  </section>
+
+  <section id="lien-he" class="page-content" style="display:none;">
+    <h2>Liên hệ với chúng tôi</h2>
+    <p>Điện thoại: 123-456-789</p>
+    <p>Email: contact@trungtam.com</p>
+  </section>
+
+  <script>
+    function showPage(pageId) {
+      // Hide all pages
+      var pages = document.querySelectorAll('.page-content');
+      pages.forEach(function(page) {
+        page.style.display = 'none';
+      });
+
+      // Show the selected page
+      var pageToShow = document.getElementById(pageId);
+      pageToShow.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+<section id="lien-he" class="page-content">
+  <h2>Liên hệ với chúng tôi</h2>
+  
+  <form action="mailto:contact@trungtam.com" method="POST" enctype="text/plain">
+    <div>
+      <label for="name">Họ và Tên:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="phone">Số điện thoại:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div>
+      <label for="course">Bạn đang quan tâm tới khóa học nào?</label>
+      <select id="course" name="course" required>
+        <option value="giao-tiep">Khóa học Can thiệp tiền tiểu học</option>
+        <option value="tre-em">Khóa học văn hóa tiểu học</option>
+        <option value="toeic">Khóa học Kỹ năng mềm</option>
+      </select>
+    </div>
+    <div>
+      <button type="submit">Gửi</button>
+    </div>
+  </form>
+
+  <h3>Thông tin liên hệ</h3>
+  <p>Điện thoại: 0354-600-686</p>
+  <p>Email: Bichthuyeducation76@gmail.com</p>
+</section>
+
+
+
+
