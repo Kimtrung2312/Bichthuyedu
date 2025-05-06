@@ -368,7 +368,7 @@ nav {
 }
 /* General styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Pacifico, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -480,6 +480,42 @@ form button {
 
 form button:hover {
   background-color: #e65c00;
+}
+body {
+  font-family: 'Pacifico', sans-serif; /* Áp dụng font Pacifico cho toàn bộ trang */
+}
+
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive; /* Dành riêng cho tiêu đề */
+}
+
+p {
+  font-family: 'Pacifico', sans-serif; /* Dành riêng cho đoạn văn */
+}
+/* Đổi font cho tất cả tiêu đề trong header */
+header h1, header h2, header h3 {
+  font-family: 'Pacifico', sans-serif;
+}
+
+/* Đổi font cho menu */
+nav ul li a {
+  font-family: 'Pacifico', sans-serif;
+}
+
+/* Đổi font cho phần text trong header nếu cần */
+header p {
+  font-family: 'Pacifico', sans-serif;
+}
+#logo {
+  font-family: 'Pacifico', cursive; /* Thay thế 'Pacifico' với font bạn chọn */
+  font-size: 36px; /* Thay đổi kích thước chữ cho logo */
+  font-weight: bold;
+  color: #ffffff; /* Màu chữ trắng (hoặc màu bạn muốn) */
+  text-align: left; /* Căn giữa nếu cần */
+}
+body {
+  font-family: 'Poppins', sans-serif;  /* Đảm bảo dùng font mà bạn đã chọn */
+  font-size: 30px;  /* Tăng cỡ chữ toàn bộ trang */
 }
 
 
